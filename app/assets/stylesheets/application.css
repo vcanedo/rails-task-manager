@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  padding: 15px;
+}
+
+a {
+  margin: 8px 12px;
+}
+
+.card {
+  padding: 15px;
+  margin: 15px;
+}
+
+.card:hover {
+  transition: .3s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+  background-color: #595959;
+}
